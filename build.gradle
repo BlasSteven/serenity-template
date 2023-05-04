@@ -1,7 +1,9 @@
-plugins id "net.serenity-bdd.serenity-gradle-plugin" version "3.5.1"
+plugins {
+    id "net.serenity-bdd.serenity-gradle-plugin" version "3.5.0"
     id 'java'
     id 'eclipse'
     id 'idea'
+}
 
 defaultTasks 'clean','test','aggregate'
 
